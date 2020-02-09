@@ -3162,6 +3162,16 @@ button:disabled,
   text-align: center;
 }
 
+@media screen and (min-width: 1680px) {
+  .features .assignment {
+    padding-top: 17%;
+  }
+
+  .features .assignment .article-image {
+    max-height: 195px;
+  }
+}
+
 @media screen and (max-width: 980px) {
   .features .assignment {
     width: calc(33% - 1.5em);
